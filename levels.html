@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishbusters Levels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="levels-page">
+    <div class="levels-container">
+        <button class="level-btn" onclick="openLevel('level1.html')">LEVEL 1</button>
+        <button class="level-btn" onclick="openLevel('level2.html')">LEVEL 2</button>
+        <button class="level-btn" onclick="openLevel('level3.html')">LEVEL 3</button>
+    </div>
+    <script>
+        function openLevel(level) {
+            window.location.href = level;
+        }
+    </script>
+</body>
+</html>
